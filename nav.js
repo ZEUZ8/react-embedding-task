@@ -14,8 +14,6 @@ const Nav = ()=>{
     </nav>
     )
 }
-
-
 // Render the component to the 'root' div
 const rootElement = document.getElementById('nav');
 ReactDOM.render(<Nav />, rootElement);
